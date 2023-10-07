@@ -1,26 +1,124 @@
 :root {
     --accent-color: #2196F3;
-    --main-color: ##212121;
+    --main-color: #212121;
     --add-color: #757575;
     --add-white: #FFFFFF;
-    --main-bg-color: #2F303A;
+    --main-bd-color: #2F303A;
 }
 
-/* .webstudio {
+body {
+    font-family: Roboto;
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    letter-spacing: 0.78px;
+}
+
+.logo-accent {
     color: var(--accent-color);
 }
-.studio {
+
+.nav-link {
+    color: var(--main-color);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
     color: var(--accent-color);
+    cursor: pointer;
 }
-.address {
-    color: var(--accent-color)
-}
-.tel {
+
+.contact-link {
     color: var(--add-color);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    text-decoration: none;
 }
-.list {
-    color: var(--brand-color);
+
+.contact-link:hover {
+    color: var(--accent-color);
+    cursor: pointer;
 }
-.p {
+
+.main-contant-title {
+    color: var(--add-white);
+    background-color: var(--main-bd-color);
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.main-contant-btn {
+    color: var(--add-white);
+    background-color: var(--accent-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+}
+
+.advantages-title {
+    color: var(--main-color);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+}
+
+.advantages-subtitle {
     color: var(--add-color);
-} */
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+.section-work-title {
+    color: var(--main-color);
+    font-size: 36px;
+    letter-spacing: 1.08px;
+}
+
+.section-workers-title {
+    color: var(--main-color);
+    font-size: 36px;
+    letter-spacing: 1.08px;
+}
+
+.section-workers-subtitle {
+    color: var(--add-color);
+    text-align: center;
+    letter-spacing: 0.48px;
+}
+
+.address-link {
+    color: var(--add-white);
+    background-color: var(--main-bd-color);
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    text-decoration: none;
+}
+
+.address-link:hover {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.footer-link {
+    color: var(--add-color);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+}
+
+.footer-link:hover {
+    color: var(--accent-color);
+    cursor: pointer;
+    text-decoration: none;
+}
